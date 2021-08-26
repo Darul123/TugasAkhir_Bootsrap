@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/020f45a6ec.js" crossorigin="anonymous"></script>
+    <title>Bookingpage - Restaurant</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+            <div class="container px-0">
+                <a class="navbar-brand" href="#">Logo.</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Index.html">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Page3.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Page2.html">BOOK A TABLE</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+          <div class="jumbotron text-white d-flex align-items-center">
+            <div class="container">
+                <h1 class="display-4 judul judul-main">Making People Happy <br> With Food</h1>
+                <div class="d-flex flex-column align-items-center">
+                <p class="lead text-center sub-judul">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <a class="btn btn-primary btn-lg button-jumbotron" href="#" role="button">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="py-3 bg-dark text-white about">
+        <div class="container">
+            <h2 class="display-4 judul pt-3">About Restourant</h2>
+            <p class="lead text-center py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quibusdam. Molestias dolores error consequuntur iusto, a quos sapiente delectus dolor facilis dolore. Ad dolorem, quia amet quis minima consectetur quae.</p>
+        </div> 
+    </section>
+    <section>
+        <div class="container">
+            <form class="py-5 ">
+                <h2 class="display-4 judul pt-2">Reservation</h2>
+                <div class="row justify-content-center pb-4">
+                    <div class="col-10">
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quibusdam. Molestias dolores error consequuntur iusto, a quos sapiente delectus dolor facilis dolore. Ad dolorem, quia amet quis minima consectetur quae.</p>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="firstname">First Name</label>
+                        <input type="text" class="form-control" id="firstname" placeholder="First name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" class="form-control" id="lastname" placeholder="First name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="example@mail.com">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputnumber">Phone</label>
+                        <input type="number" class="form-control" id="inputnumber" placeholder="0876 3647 7374">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputAddress2">Restaurant</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Restaurant 1</option>
+                            <option>Restaurant 2</option>
+                            <option>Restaurant 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputAddress2">People</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>2 Person</option>
+                            <option>3 Person</option>
+                            <option>4 Person</option>
+                            <option>5 Person</option>
+                            <option>6 Person</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputAddress2">Time</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>18:00 WIB</option>
+                            <option>19:00 WIB</option>
+                            <option>20:00 WIB</option>
+                            <option>21:00 WIB</option>
+                            <option>22:00 WIB</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputdate">Date</label>
+                        <input type="date" class="form-control" id="inputdate">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress2">Comments (optional)</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type here"></textarea>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label check-label" for="gridCheck">
+                        Remind Me By Phone
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary booking-button mt-1">Booking</button>
+              </form>
+        </div>
+    </section>
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="footer-flex d-flex">
+                <div class="footer-left">
+                    <div class="logo">
+                        <p class="navbar-brand">Logo.</p>
+                    </div>
+                    <p>&copy; 2021 Reserved By Darul Hidayah</p>
+                </div>
+                <div class="footer-right">
+                    <div>
+                        <p>Stay Connect With</p>
+                        <div class="d-flex">
+                            <a href=""><i id="fb" class="fab fa-facebook-square"></i></a>
+                            <a href=""><i id="ig" class="fab fa-instagram"></i></i></a>
+                            <a href=""><i id="tw" class="fab fa-twitter"></i></i></a>
+                        </div>
+                    </div>
+                    <p>Indonesia <br> Powered By <a href="https://www.gamelab.id/" target="_blank"><b>Gamelab.ID</b></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

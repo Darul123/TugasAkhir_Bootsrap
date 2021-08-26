@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 800;
+}
+.active a {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 0 30px;
+}
+.jumbotron {
+    height: 416px;
+    background: url("./assets/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 70px 0 0 0;
+    border-radius: 0;
+}
+.judul {
+    font-family: 'Style Script', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.judul-main {
+    font-size: 50px;
+}
+.sub-judul {
+    width: 700px;
+    margin: 0 auto;
+}
+.button-jumbotron {
+    border-radius: 20px;
+    width: 150px;
+    margin: 20px 0 0 0;
+    background-color: #81B214;
+    border: 1px solid transparent;
+}
+.button-jumbotron:hover {
+    background-color: transparent;
+    border: 1px solid #81B214;
+    color: #81B214;
+}
+.about p {
+    font-size: 12px;
+    font-weight: 200;
+}
+.box {
+    margin: 0 10px;
+    padding: 0 ; 
+}
+.card {
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.card a {
+    border-radius: 20px;
+    padding: 5px 15px;
+    background: #81B214;
+    border: none;
+}
+.card a:hover {
+    background: #648b0d;
+}
+.btn-more {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #81B214;
+    border: 1px solid transparent;
+}
+.btn-more:hover {
+    background: transparent;
+    border: 1px solid #81B214;
+    color: #81B214;
+}
+.booking {
+    padding: 100px 0;
+}
+.booking-box {
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.booking-text {
+    font-size: 10px;
+    margin: 10px 0 0 0;
+}
+.booking-button {
+    text-align: center;
+    margin: 15px 0 0 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #81B214;
+    border: none;
+}
+.booking-button:hover {
+    background: #648b0d;
+}
+.special {
+    padding: 80px 0;
+}
+footer {
+    padding: 20px 0 10px 0;
+    color: #fff;
+}
+.footer-left {
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-left .logo p {
+    color: #fff;
+}
+.footer-right {
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.footer-right a{
+    color: #fff;
+}
+.footer-right i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 0 0 0 5px;
+    color: #132C33;
+    background: #fff;
+}
+.footer-right p{
+    text-align: right;
+}
+.check-label {
+    margin: 2px 0 0 7px;
+}
+.col-md-4 img,.col-md-8 img {
+    width: 100%;
+}
